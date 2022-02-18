@@ -1,0 +1,333 @@
+/*   ELEMENT */
+body {
+  margin: 0;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+header {
+  background-size: 100%;
+  background-image: url(images/bg-header-desktop.png);
+  height: 470px;
+}
+h1{
+font-size: 38px;
+font-weight: 600;
+}
+h2{
+  font-size: 30px;
+  font-weight: 600;
+}
+h3{
+  font-size: 26px;
+}
+footer {
+  background-color:#E6E6E6;
+  height: 250px;
+}
+a{
+  text-decoration: none;
+  color:hsl(201, 11%, 66%);
+}
+a:hover{
+  color: hsl(210, 10%, 33%);
+}
+
+/* ====== TOP-CONTAINER =====*/
+.top-container {
+  padding-top: 150px;
+  text-align: center;
+  width: 600px;
+  margin: auto;
+}
+
+/* ====== MID-CONTAINER =====*/
+.mid-first-container {
+  padding-bottom: 50px;
+  padding-top: 200px;
+  text-align: center;
+  width: 600px;
+  margin: auto;
+}
+
+.mid-second-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mid-second-left {
+  width: 800px;
+  padding-right: 100px;
+}
+
+.mid-second-right {
+  margin-right: 450px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 20px;
+}
+
+.mid-third-container {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mid-third-top {
+  margin: auto;
+  width: 400px;
+  text-align: center;
+}
+
+.mid-third-bottom {
+  padding-top: 20px;
+  margin: auto;
+  width: 1200px;
+  text-align: center;
+}
+
+.mid-fourth-container {
+}
+
+.mid-fourth-top {
+  padding-top: 50px;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.mid-fourth-mid {
+  grid-gap: 80px;
+  padding-top: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.blacklists-container {
+  width: 320px;
+  padding-bottom: 10px;
+}
+
+.snippet-container {
+  width: 320px;
+}
+
+.preview-container {
+  width: 320px;
+  padding-top: 10px;
+}
+
+.mid-fourth-bottom {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  grid-gap: 150px;
+}
+
+.mid-fifth-container {
+  width: 600px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+/* ====== BOTTOM CONTAINER =====*/
+.bottom-container {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  justify-content: center;
+  display: flex;
+  grid-gap: 200px;
+}
+.frontendmentor{
+  padding-top: 50px;
+}
+
+/* ====== BUTTON =====*/
+.btn-ios{
+  font-weight: 600;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin:10px 5px;
+  border-radius: 30px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  box-shadow: 2px 3px 4px grey;
+  background-color: hsl(171, 66%, 44%);
+  color: white;
+  border: none;
+}
+.btn-ios:hover{
+  color: hsl(171, 66%, 44%);
+  background-color: white;
+  transition: 0.4s;
+}
+.btn-mac{
+  font-weight: 600;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin:10px 5px;
+  border-radius: 30px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  box-shadow: 2px 3px 4px grey;
+  background-color: hsl(233, 100%, 69%);
+  color: white;
+  border: none;
+}
+.btn-mac:hover{
+  color: hsl(233, 100%, 69%);
+  background-color: white;
+  transition: 0.4s;
+}
+/* ====== IMAGE =====*/
+.computer-img {
+  margin-left: -20px;
+  width: 900px;
+}
+
+.device-img {
+  width: 1000px;
+}
+.logo-bottom{
+  width:60px;
+}
+/* ====== PARAGRAPH =====*/
+.p-1{
+  font-size: 18px;
+  line-height: 1.5;
+  color: hsl(210, 10%, 33%)
+}
+.p-2{
+  font-size: 18px;
+  line-height: 1.5;
+  color: hsl(210, 10%, 33%);
+}
+.p-3{
+  color:hsl(210, 10%, 33%);
+}
+
+/* ====== RESPONSIVE DESIGN =====*/
+@media screen and (max-width:600px) {
+  body{
+
+  }
+  header{
+    background-size: 1000%;
+  }
+  main{
+    text-align: center;
+  }
+  footer{
+    height: 400px;
+  }
+  h1{
+  font-size: 30px;
+  font-weight: 600;
+  }
+  h2{
+    font-size: 26px;
+    font-weight: 600;
+  }
+  h3{
+    font-size: 20px;
+  }
+
+
+/* ======CONTAINER=====*/
+.top-container {
+  flex-direction: column;
+  padding-top: 150px;
+  text-align: center;
+  width: 400px;
+  margin: auto;
+}
+.mid-first-container {
+  padding-bottom: 50px;
+  padding-top: 300px;
+  text-align: center;
+  width: 400px;
+  margin: auto;
+}
+.mid-second-container {
+  margin-left: 42px;
+  width: 400px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.mid-second-left {
+  margin: auto;
+  width: 400px;
+}
+.mid-second-right{
+  margin: auto;
+  width:400px;
+}
+.mid-third-top {
+  margin: auto;
+  width: 400px;
+  text-align: center;
+}
+
+.mid-third-bottom {
+  padding-top: 20px;
+  margin: auto;
+  width: 400px;
+  text-align: center;
+}
+.mid-fourth-mid {
+  padding-top: 50px;
+  padding-left: 80px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mid-fourth-bottom {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+
+}
+.mid-fifth-container {
+  width: 400px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+.bottom-container {
+  width: 400px;
+  text-align: center;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  justify-content: center;
+  display: block;
+
+}
+/* ======RESPONSIVE IMAGE=====*/
+.computer-img {
+  margin: auto;
+  width: 375px;
+}
+
+.device-img {
+  margin: auto;
+  width: 375px;
+}
+.logo-bottom{
+  margin: auto;
+  width:60px;
+}
+}
